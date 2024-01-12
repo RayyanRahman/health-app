@@ -1,0 +1,64 @@
+.medicine-container {
+    max-width: 98vw;
+    height: 70vh;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-med {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
+    padding: 20px 0;
+}
+
+.input-med button{
+    background-color: #067ece;
+    color: aliceblue;
+    width: 10%;
+    margin-left: 2%;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-med button:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.med-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    background-image:  linear-gradient(45deg, #3498db, #e0e0e0);
+    color: rgb(13, 13, 46);
+    border: 1px solid aliceblue;
+}
+
+.med-time {
+    color:#ffffff;
+}
+
+.medicine-input  input{
+    margin-right: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    .med-container{
+        width: 80%;
+    }
+    .medicine-container{
+        margin-top: 20%;
+    }
+}
